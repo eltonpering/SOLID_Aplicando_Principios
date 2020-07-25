@@ -6,7 +6,7 @@ namespace Aplicando_Principios_SOLID6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calcular descontos\n");
+            Console.WriteLine("Calcular descontos`\n");
 
 
             ICalculaDescontoFidelidade descontoFidelidade =   new CalculaDescontoFidelidade();

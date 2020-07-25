@@ -8,8 +8,8 @@
         
         public GerenciadorDeDescontos(ICalculaDescontoFidelidade _descontoFidelidade, ICalculaDescontoStatusContaFactory _descontoStatusConta)
         {
-            descontoStatusConta = _descontoStatusConta;
             descontoFidelidade = _descontoFidelidade;
+            descontoStatusConta = _descontoStatusConta;
         }
 
 
